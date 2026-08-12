@@ -1,0 +1,76 @@
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.csproj.AssemblyReference.cache
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.GeneratedMSBuildEditorConfig.editorconfig
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.AssemblyInfoInputs.cache
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.AssemblyInfo.cs
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.csproj.CoreCompileInputs.cache
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.exe
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.deps.json
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.runtimeconfig.json
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.pdb
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\Google.Protobuf.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MySql.Data.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\ZstdSharp.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Data.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Data.pdb
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiari.7CFC2B2D.Up2Date
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\refint\MeuDiarioSENAC.ConsoleApp.dll
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.pdb
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.genruntimeconfig.cache
+C:\workplace\Desenvolvedor Web\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\ref\MeuDiarioSENAC.ConsoleApp.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.exe
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.deps.json
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.runtimeconfig.json
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.pdb
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MySql.Data.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Data.pdb
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.csproj.AssemblyReference.cache
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.AssemblyInfoInputs.cache
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.AssemblyInfo.cs
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.csproj.CoreCompileInputs.cache
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiari.7CFC2B2D.Up2Date
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\refint\MeuDiarioSENAC.ConsoleApp.dll
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.pdb
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.genruntimeconfig.cache
+C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\ref\MeuDiarioSENAC.ConsoleApp.dll
