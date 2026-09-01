@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Prog_Sis\\Documents\\workplace\\Desenvolvedor Web\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj": {}
+    "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Prog_Sis\\Documents\\workplace\\Desenvolvedor Web\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj": {
+    "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\workplace\\Desenvolvedor Web\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
+        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
         "projectName": "MeuDiarioSENAC.Data",
-        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\workplace\\Desenvolvedor Web\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
+        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
         "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\workplace\\Desenvolvedor Web\\Back\\MeuDiarioSENAC.Data\\obj\\",
+        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -48,11 +48,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.19, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[9.7.0, )"
+              "version": "[9.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

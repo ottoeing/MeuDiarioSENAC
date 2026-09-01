@@ -22,3 +22,33 @@ C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\
 C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\refint\MeuDiarioSENAC.Data.dll
 C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.pdb
 C:\Users\Prog_Sis\Documents\workplace\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\ref\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.csproj.AssemblyReference.cache
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.AssemblyInfoInputs.cache
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.AssemblyInfo.cs
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.csproj.CoreCompileInputs.cache
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.sourcelink.json
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\refint\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.pdb
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.deps.json
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.runtimeconfig.json
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.pdb
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.genruntimeconfig.cache
+C:\Users\Prog_Sis\Documents\workplace\Desenvolvedor Web\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\ref\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.csproj.AssemblyReference.cache
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.AssemblyInfoInputs.cache
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.AssemblyInfo.cs
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.csproj.CoreCompileInputs.cache
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.sourcelink.json
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\refint\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.pdb
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.deps.json
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.runtimeconfig.json
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Data.pdb
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.data.genruntimeconfig.cache
+C:\Users\Prog_Sis\Documents\Avaliação\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Debug\net9.0\ref\MeuDiarioSENAC.Data.dll

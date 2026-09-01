@@ -1,107 +1,101 @@
-using MySql.Data.MySqlClient;
+using Microsoft.EntityFrameworkCore;
 
 namespace MeuDiarioSENAC.Data;
 
 public class RegistroDAO
 {
-    private MySqlConnection conexao;
+    private readonly MeuDiarioSENACContext conexao;
 
     public RegistroDAO()
     {
-        MeuDiarioSENACContext c = new MeuDiarioSENACContext();
-        conexao = c.Conectar();
+        conexao = new MeuDiarioSENACContext();
     }
 
-    private bool AbrirConexao()
+    public Usuario? RegistrarUsuario(string nome, string email, string senha)
     {
-        if (conexao == null)
+        if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha))
         {
-            MeuDiarioSENACContext c = new MeuDiarioSENACContext();
-            conexao = c.Conectar();
+            return null;
         }
 
-        if (conexao == null)
-            return false;
+        email = email.Trim();
+        nome = nome.Trim();
 
-        if (conexao.State != System.Data.ConnectionState.Open)
+        if (conexao.Usuarios.Any(u => u.Email.ToLower() == email.ToLower()))
         {
-            conexao.Open();
+            return null;
         }
 
-        return conexao.State == System.Data.ConnectionState.Open;
+        var usuario = new Usuario
+        {
+            Nome = nome,
+            Email = email,
+            Senha = senha
+        };
+
+        conexao.Usuarios.Add(usuario);
+        conexao.SaveChanges();
+        return usuario;
     }
 
-    public void CadastrarRegistro(string titulo, string conteudo)
+    public Usuario? LogarUsuario(string email, string senha)
     {
-        if (!AbrirConexao())
+        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha))
+        {
+            return null;
+        }
+
+        return conexao.Usuarios
+            .FirstOrDefault(u => u.Email.ToLower() == email.Trim().ToLower() && u.Senha == senha);
+    }
+
+    public void CadastrarRegistro(string titulo, string conteudo, int usuarioId)
+    {
+        var usuario = conexao.Usuarios.Find(usuarioId);
+
+        if (usuario is null)
+        {
             return;
-
-        string sql = "INSERT INTO registro (titulo, conteudo) VALUES (@titulo, @conteudo)";
-
-        using MySqlCommand comando = new MySqlCommand(sql, conexao);
-        comando.Parameters.AddWithValue("@titulo", titulo);
-        comando.Parameters.AddWithValue("@conteudo", conteudo);
-        comando.ExecuteNonQuery();
-    }
-
-    public List<Registro> ListarRegistros()
-    {
-        if (!AbrirConexao())
-            return new List<Registro>();
-
-        string sql = "SELECT * FROM registro";
-
-        using MySqlCommand comando = new MySqlCommand(sql, conexao);
-        using MySqlDataReader leitor = comando.ExecuteReader();
-        List<Registro> registros = new List<Registro>();
-        while (leitor.Read())
-        {
-            Registro registro = new Registro()
-            {
-                IdRegistro = Convert.ToInt32(leitor["id_registro"]),
-                Titulo = Convert.ToString(leitor["titulo"]),
-                Conteudo = Convert.ToString(leitor["conteudo"]),
-                Data = leitor["data"] != DBNull.Value ? Convert.ToDateTime(leitor["data"]) : DateTime.MinValue
-            };
-            registros.Add(registro);
         }
-        return registros;
-    }
 
-    public List<Registro> PesquisarRegistro(int idRegistro)
-    {
-        if (!AbrirConexao())
-            return new List<Registro>();
-
-        string sql = "SELECT * FROM registro WHERE id_registro = @id_registro";
-
-        using MySqlCommand comando = new MySqlCommand(sql, conexao);
-        comando.Parameters.AddWithValue("@id_registro", idRegistro);
-        using MySqlDataReader leitor = comando.ExecuteReader();
-        List<Registro> registros = new List<Registro>();
-        while (leitor.Read())
+        var registro = new Registro
         {
-            Registro registro = new Registro()
-            {
-                IdRegistro = Convert.ToInt32(leitor["id_registro"]),
-                Titulo = Convert.ToString(leitor["titulo"]),
-                Conteudo = Convert.ToString(leitor["conteudo"]),
-                Data = leitor["data"] != DBNull.Value ? Convert.ToDateTime(leitor["data"]) : DateTime.MinValue
-            };
-            registros.Add(registro);
-        }
-        return registros;
+            Titulo = titulo,
+            Conteudo = conteudo,
+            Data = DateTime.Now,
+            UsuarioId = usuario.Id,
+            Usuario = usuario
+        };
+
+        conexao.Registros.Add(registro);
+        conexao.SaveChanges();
     }
 
-    public void RemoverRegistro(int idRegistro)
+    public List<Registro> ListarRegistrosPorUsuario(int usuarioId)
     {
-        if (!AbrirConexao())
-            return;
+        return conexao.Registros
+            .Where(r => r.UsuarioId == usuarioId)
+            .Include(r => r.Usuario)
+            .OrderBy(r => r.Data)
+            .ToList();
+    }
 
-        string sql = "DELETE FROM registro WHERE id_registro = @id_registro";
+    public List<Registro> PesquisarRegistroPorUsuario(int usuarioId, int id)
+    {
+        return conexao.Registros
+            .Where(r => r.UsuarioId == usuarioId && r.Id == id)
+            .Include(r => r.Usuario)
+            .ToList();
+    }
 
-        using MySqlCommand comando = new MySqlCommand(sql, conexao);
-        comando.Parameters.AddWithValue("@id_registro", idRegistro);
-        comando.ExecuteNonQuery();
+    public void RemoverRegistroPorUsuario(int usuarioId, int id)
+    {
+        var registro = conexao.Registros.FirstOrDefault(r => r.Id == id && r.UsuarioId == usuarioId);
+
+        if (registro is not null)
+        {
+            conexao.Registros.Remove(registro);
+            conexao.SaveChanges();
+        }
     }
 }

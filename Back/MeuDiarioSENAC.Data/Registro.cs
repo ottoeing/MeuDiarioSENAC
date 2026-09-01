@@ -2,15 +2,18 @@ namespace MeuDiarioSENAC.Data;
 
 public class Registro
 {
-    public int IdRegistro { get; set; }
-    public string Titulo { get; set; }
-    public string Conteudo { get; set; }
+    public int Id { get; set; }
+    public string Titulo { get; set; } = string.Empty;
+    public string Conteudo { get; set; } = string.Empty;
     public DateTime Data { get; set; }
+    public int UsuarioId { get; set; }
+    public Usuario? Usuario { get; set; }
+
     public Registro() { }
 
-    public Registro(int idRegistro, string titulo, string conteudo, DateTime data)
+    public Registro(int id, string titulo, string conteudo, DateTime data)
     {
-        IdRegistro = idRegistro;
+        Id = id;
         Titulo = titulo;
         Conteudo = conteudo;
         Data = data;
@@ -18,6 +21,6 @@ public class Registro
 
     public override string ToString()
     {
-        return $"ID: {IdRegistro}, Título: {Titulo}, Conteúdo: {Conteudo}, Data: {Data}";
+        return $"ID: {Id}, Título: {Titulo}, Conteúdo: {Conteudo}, Data: {Data}";
     }
 }

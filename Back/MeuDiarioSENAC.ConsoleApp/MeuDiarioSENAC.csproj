@@ -10,11 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="9.7.0" />
+    <ProjectReference Include="..\MeuDiarioSENAC.Data\MeuDiarioSENAC.data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MeuDiarioSENAC.Data\MeuDiarioSENAC.data.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

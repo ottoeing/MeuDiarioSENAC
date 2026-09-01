@@ -1,4 +1,5 @@
 ﻿using MeuDiarioSENAC.Data;
 
-Aplicativo app = new Aplicativo();
-app.Executar();
+var registroDao = new RegistroDAO();
+var menuDiario = new MenuDiario(registroDao);
+menuDiario.Executar();
