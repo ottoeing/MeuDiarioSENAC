@@ -911,6 +911,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MeuDiarioSENAC.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MeuDiarioSENAC.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeuDiarioSENAC.Model.dll": {}
+        }
       }
     }
   },
@@ -2785,10 +2795,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MeuDiarioSENAC.Model/1.0.0": {
+      "type": "project",
+      "path": "../MeuDiarioSENAC.Model/MeuDiarioSENAC.Model.csproj",
+      "msbuildProject": "../MeuDiarioSENAC.Model/MeuDiarioSENAC.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "MeuDiarioSENAC.Model >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 9.0.0"
     ]
@@ -2799,11 +2815,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
+      "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
       "projectName": "MeuDiarioSENAC.Data",
-      "projectPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
+      "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
       "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\obj\\",
+      "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2817,7 +2833,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj": {
+              "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

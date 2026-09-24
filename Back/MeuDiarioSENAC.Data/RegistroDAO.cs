@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using MeuDiarioSENAC.Model;
 
 namespace MeuDiarioSENAC.Data;
 
@@ -9,44 +10,6 @@ public class RegistroDAO
     public RegistroDAO()
     {
         conexao = new MeuDiarioSENACContext();
-    }
-
-    public Usuario? RegistrarUsuario(string nome, string email, string senha)
-    {
-        if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha))
-        {
-            return null;
-        }
-
-        email = email.Trim();
-        nome = nome.Trim();
-
-        if (conexao.Usuarios.Any(u => u.Email.ToLower() == email.ToLower()))
-        {
-            return null;
-        }
-
-        var usuario = new Usuario
-        {
-            Nome = nome,
-            Email = email,
-            Senha = senha
-        };
-
-        conexao.Usuarios.Add(usuario);
-        conexao.SaveChanges();
-        return usuario;
-    }
-
-    public Usuario? LogarUsuario(string email, string senha)
-    {
-        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha))
-        {
-            return null;
-        }
-
-        return conexao.Usuarios
-            .FirstOrDefault(u => u.Email.ToLower() == email.Trim().ToLower() && u.Senha == senha);
     }
 
     public void CadastrarRegistro(string titulo, string conteudo, int usuarioId)
@@ -71,11 +34,35 @@ public class RegistroDAO
         conexao.SaveChanges();
     }
 
+    public void AtualizarRegistro(Registro registro)
+    {
+        var registroExistente = conexao.Registros.FirstOrDefault(
+            r => r.Id == registro.Id && r.UsuarioId == registro.UsuarioId);
+
+        if (registroExistente is null)
+        {
+            return;
+        }
+
+        registroExistente.Titulo = registro.Titulo;
+        registroExistente.Conteudo = registro.Conteudo;
+        conexao.SaveChanges();
+    }
+
+    public List<Registro> ListarRegistros()
+    {
+        return conexao.Registros
+            .AsNoTracking()
+            .Include(r => r.Usuario)
+            .OrderBy(r => r.Data)
+            .ToList();
+    }
     public List<Registro> ListarRegistrosPorUsuario(int usuarioId)
     {
         return conexao.Registros
-            .Where(r => r.UsuarioId == usuarioId)
+            .AsNoTracking()
             .Include(r => r.Usuario)
+            .Where(r => r.UsuarioId == usuarioId)
             .OrderBy(r => r.Data)
             .ToList();
     }
@@ -83,8 +70,9 @@ public class RegistroDAO
     public List<Registro> PesquisarRegistroPorUsuario(int usuarioId, int id)
     {
         return conexao.Registros
-            .Where(r => r.UsuarioId == usuarioId && r.Id == id)
+            .AsNoTracking()
             .Include(r => r.Usuario)
+            .Where(r => r.UsuarioId == usuarioId && r.Id == id)
             .ToList();
     }
 

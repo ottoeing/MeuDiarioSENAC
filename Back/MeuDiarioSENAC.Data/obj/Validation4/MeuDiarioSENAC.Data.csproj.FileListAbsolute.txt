@@ -1,0 +1,14 @@
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Validation4\MeuDiarioSENAC.Data.deps.json
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Validation4\MeuDiarioSENAC.Data.runtimeconfig.json
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Validation4\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\bin\Validation4\MeuDiarioSENAC.Model.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.csproj.AssemblyReference.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.AssemblyInfoInputs.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.AssemblyInfo.cs
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.csproj.CoreCompileInputs.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiari.D3277251.Up2Date
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\refint\MeuDiarioSENAC.Data.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\MeuDiarioSENAC.Data.genruntimeconfig.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Data\obj\Validation4\ref\MeuDiarioSENAC.Data.dll

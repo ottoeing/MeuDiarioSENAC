@@ -1,0 +1,12 @@
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\bin\ValidationDeleteBody\MeuDiarioSENAC.Business.deps.json
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\bin\ValidationDeleteBody\MeuDiarioSENAC.Business.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\bin\ValidationDeleteBody\MeuDiarioSENAC.Model.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiarioSENAC.Business.csproj.AssemblyReference.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiarioSENAC.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiarioSENAC.Business.AssemblyInfoInputs.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiarioSENAC.Business.AssemblyInfo.cs
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiarioSENAC.Business.csproj.CoreCompileInputs.cache
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiari.0BFF25CF.Up2Date
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\MeuDiarioSENAC.Business.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\refint\MeuDiarioSENAC.Business.dll
+C:\Users\Prog_Sis\Documents\MeuDiarioSENAC\Back\MeuDiarioSENAC.Business\obj\ValidationDeleteBody\ref\MeuDiarioSENAC.Business.dll

@@ -1,0 +1,340 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.WebApi\\MeuDiarioSENAC.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Business\\MeuDiarioSENAC.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Business\\MeuDiarioSENAC.Business.csproj",
+        "projectName": "MeuDiarioSENAC.Business",
+        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Business\\MeuDiarioSENAC.Business.csproj",
+        "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj": {
+                "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.Data.csproj",
+        "projectName": "MeuDiarioSENAC.Data",
+        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.Data.csproj",
+        "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj": {
+                "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj",
+        "projectName": "MeuDiarioSENAC.Model",
+        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj",
+        "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj",
+        "projectName": "MeuDiarioSENAC.Service",
+        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj",
+        "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Business\\MeuDiarioSENAC.Business.csproj": {
+                "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Business\\MeuDiarioSENAC.Business.csproj"
+              },
+              "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.Data.csproj": {
+                "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.Data.csproj"
+              },
+              "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj": {
+                "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.WebApi\\MeuDiarioSENAC.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.WebApi\\MeuDiarioSENAC.WebApi.csproj",
+        "projectName": "MeuDiarioSENAC.WebApi",
+        "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.WebApi\\MeuDiarioSENAC.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj": {
+                "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "MeuDiarioSENAC.ConsoleApp/1.0.0": {
         "dependencies": {
-          "MeuDiarioSENAC.Data": "1.0.0",
+          "MeuDiarioSENAC.Model": "1.0.0",
+          "MeuDiarioSENAC.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "9.0.0"
         },
         "runtime": {
@@ -600,13 +601,46 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Text.Json/9.0.0": {},
       "System.Threading.Channels/7.0.0": {},
+      "MeuDiarioSENAC.Business/1.0.0": {
+        "dependencies": {
+          "MeuDiarioSENAC.Model": "1.0.0"
+        },
+        "runtime": {
+          "MeuDiarioSENAC.Business.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MeuDiarioSENAC.Data/1.0.0": {
         "dependencies": {
+          "MeuDiarioSENAC.Model": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
         },
         "runtime": {
           "MeuDiarioSENAC.Data.dll": {
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MeuDiarioSENAC.Model/1.0.0": {
+        "runtime": {
+          "MeuDiarioSENAC.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MeuDiarioSENAC.Service/1.0.0": {
+        "dependencies": {
+          "MeuDiarioSENAC.Business": "1.0.0",
+          "MeuDiarioSENAC.Data": "1.0.0",
+          "MeuDiarioSENAC.Model": "1.0.0"
+        },
+        "runtime": {
+          "MeuDiarioSENAC.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -905,7 +939,22 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
+    "MeuDiarioSENAC.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MeuDiarioSENAC.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeuDiarioSENAC.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeuDiarioSENAC.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

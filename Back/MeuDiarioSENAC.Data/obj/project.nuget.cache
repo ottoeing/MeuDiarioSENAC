@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aQMs3DjCglk=",
+  "dgSpecHash": "F7d6win5maM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj",
+  "projectFilePath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prog_Sis\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Prog_Sis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

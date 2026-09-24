@@ -912,10 +912,24 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "MeuDiarioSENAC.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MeuDiarioSENAC.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MeuDiarioSENAC.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeuDiarioSENAC.Business.dll": {}
+        }
+      },
       "MeuDiarioSENAC.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "MeuDiarioSENAC.Model": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
         },
         "compile": {
@@ -923,6 +937,31 @@
         },
         "runtime": {
           "bin/placeholder/MeuDiarioSENAC.Data.dll": {}
+        }
+      },
+      "MeuDiarioSENAC.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MeuDiarioSENAC.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeuDiarioSENAC.Model.dll": {}
+        }
+      },
+      "MeuDiarioSENAC.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MeuDiarioSENAC.Business": "1.0.0",
+          "MeuDiarioSENAC.Data": "1.0.0",
+          "MeuDiarioSENAC.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MeuDiarioSENAC.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MeuDiarioSENAC.Service.dll": {}
         }
       }
     }
@@ -2799,15 +2838,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MeuDiarioSENAC.Business/1.0.0": {
+      "type": "project",
+      "path": "../MeuDiarioSENAC.Business/MeuDiarioSENAC.Business.csproj",
+      "msbuildProject": "../MeuDiarioSENAC.Business/MeuDiarioSENAC.Business.csproj"
+    },
     "MeuDiarioSENAC.Data/1.0.0": {
       "type": "project",
       "path": "../MeuDiarioSENAC.Data/MeuDiarioSENAC.data.csproj",
       "msbuildProject": "../MeuDiarioSENAC.Data/MeuDiarioSENAC.data.csproj"
+    },
+    "MeuDiarioSENAC.Model/1.0.0": {
+      "type": "project",
+      "path": "../MeuDiarioSENAC.Model/MeuDiarioSENAC.Model.csproj",
+      "msbuildProject": "../MeuDiarioSENAC.Model/MeuDiarioSENAC.Model.csproj"
+    },
+    "MeuDiarioSENAC.Service/1.0.0": {
+      "type": "project",
+      "path": "../MeuDiarioSENAC.Service/MeuDiarioSENAC.Service.csproj",
+      "msbuildProject": "../MeuDiarioSENAC.Service/MeuDiarioSENAC.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "MeuDiarioSENAC.Data >= 1.0.0",
+      "MeuDiarioSENAC.Model >= 1.0.0",
+      "MeuDiarioSENAC.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0"
     ]
   },
@@ -2817,11 +2872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.ConsoleApp\\MeuDiarioSENAC.csproj",
+      "projectUniqueName": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.ConsoleApp\\MeuDiarioSENAC.csproj",
       "projectName": "MeuDiarioSENAC.ConsoleApp",
-      "projectPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.ConsoleApp\\MeuDiarioSENAC.csproj",
+      "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.ConsoleApp\\MeuDiarioSENAC.csproj",
       "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2836,8 +2891,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj": {
-              "projectPath": "C:\\Users\\Prog_Sis\\Documents\\Avaliação\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Data\\MeuDiarioSENAC.data.csproj"
+            "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj": {
+              "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Model\\MeuDiarioSENAC.Model.csproj"
+            },
+            "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj": {
+              "projectPath": "C:\\Users\\Prog_Sis\\Documents\\MeuDiarioSENAC\\Back\\MeuDiarioSENAC.Service\\MeuDiarioSENAC.Service.csproj"
             }
           }
         }
