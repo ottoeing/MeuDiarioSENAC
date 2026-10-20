@@ -2,6 +2,7 @@ using MeuDiarioSENAC.Service;
 using MeuDiarioSENAC.Model;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,46 @@ builder.Services.ConfigureHttpJsonOptions(options =>
     options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 });
 
+var jwtSettings = builder.Configuration.GetSection("JWTSettings");
+var chaveSecreta = jwtSettings["SecretKey"]
+    ?? throw new InvalidOperationException("A configuração JWTSettings:SecretKey é obrigatória.");
+var chaveSecretaBytes = Encoding.ASCII.GetBytes(chaveSecreta);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = "JwtBearer";
+    options.DefaultChallengeScheme = "JwtBearer";
+}).AddJwtBearer("JwtBearer", options =>
+{
+   options.RequireHttpsMetadata = false;
+   options.SaveToken = true;
+   options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(chaveSecretaBytes),
+        ClockSkew = TimeSpan.Zero
+    };
+});
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
-var registrosGroup = app.MapGroup("/registros");
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapPost("/login/auth", ([FromBody] Usuario usuario) =>
+{
+    TokenService authService = new TokenService(builder.Configuration);
+    return authService.GerarToken(usuario);
+});
+
+
+
+var registrosGroup = app.MapGroup("/registros").RequireAuthorization();
+
+
 var usuariosGroup = app.MapGroup("/usuarios");
 
 app.MapGet("/", () => "Hello World!");
@@ -72,5 +111,4 @@ usuariosGroup.MapGet("/{usuarioId}/registros", (int usuarioId) =>
 });
 
 app.Run();
-
 

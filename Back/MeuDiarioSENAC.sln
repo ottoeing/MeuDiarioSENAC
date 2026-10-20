@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDiarioSENAC.WebApi", "Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDiarioSENAC.Service", "MeuDiarioSENAC.Service\MeuDiarioSENAC.Service.csproj", "{6DD776A5-07A6-40E3-B76A-7483E8FD9A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDiarioSENAC.Business", "MeuDiarioSENAC.Business\MeuDiarioSENAC.Business.csproj", "{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{6DD776A5-07A6-40E3-B76A-7483E8FD9A1C}.Release|x64.Build.0 = Release|Any CPU
 		{6DD776A5-07A6-40E3-B76A-7483E8FD9A1C}.Release|x86.ActiveCfg = Release|Any CPU
 		{6DD776A5-07A6-40E3-B76A-7483E8FD9A1C}.Release|x86.Build.0 = Release|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Debug|x64.Build.0 = Debug|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Debug|x86.Build.0 = Debug|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Release|x64.Build.0 = Release|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{D44936EE-71B1-4B7C-8E6D-93F8E2DADCC1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
